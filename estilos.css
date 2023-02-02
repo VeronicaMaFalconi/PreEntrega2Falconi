@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Itim&family=Quicksand:wght@300&display=swap');
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgb(210, 154, 161), #C8AFB3 60%, white);
+    background-color: rgb(210, 154, 161);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px 0px 0px 0px;
+}
+
+h1 {
+    color: #A00034;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 6s;
+}
+
+
+.jumbotron p {
+    text-transform: uppercase !important;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    max-width: 37px;
+}
+
+.nav-item a {
+    font-family: 'Quicksand', sans-serif;
+    color: black !important;
+    font-size: 25px;
+}
+
+.nav-item a:hover {
+    color: #A00034 !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 6rem;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--pink);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #A00034 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/img/icono.png) !important;
+}
+
+.resaltado{
+    font-family: 'Candal', sans-serif;
+    color: black!important;
+    animation: resaltado;
+    animation-iteration-count: 3;
+    transition-delay: 1000ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes resaltado {
+    0% {
+        background-color: none;
+    }
+
+    50% {
+        background-color: #9BDEAC;
+    }
+
+    100% {
+        background-color: #9BDEAC;
+    }
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-style: oblique;
+    font-size: 31px;
+}
+
+.col-sm-6 p img {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(255, 252, 252);
+    box-shadow: 10px 10px 20px 0px #aaa;
+}
+
+.cursiva{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+}
+
+.col-sm-6 a{
+    font-family: 'Itim', cursive !important;
+    color: #574144!important;
+    
+}
+
+h6{
+    font-family: 'Itim', cursive;
+    color: #574144;
+    font-size: 55px;
+}
+
+
+h7{
+    font-family: 'Itim', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+.jumbotron ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+

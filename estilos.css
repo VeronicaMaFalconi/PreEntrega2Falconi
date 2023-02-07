@@ -75,11 +75,13 @@ h1 {
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: #A00034 !important;
+    border-color: #A00034;
+    padding-top: 10px!important;
 }
 
-.navbar-toggler-icon {
-    background-image: url(/img/icono.png) !important;
+.navbar-toggler i{
+    color: #A00034;
+    border-color: #A00034;
 }
 
 .resaltado{

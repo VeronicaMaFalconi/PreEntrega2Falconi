@@ -26,6 +26,10 @@ h1 {
     --animate-duration: 6s;
 }
 
+.animate__animated.animate__rollIn{
+    animation-duration: 5s;
+}
+
 
 .jumbotron p {
     text-transform: uppercase !important;
@@ -111,17 +115,23 @@ h1 {
 }
 
 h2 {
+    padding: 15px;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h5 {
     font-family: 'Quicksand', sans-serif;
     font-style: oblique;
-    font-size: 31px;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 5px 5px 5px;
 }
-
+.imagenbio{
+    padding-top: 25px;
+}
 .col-sm-6 p img {
     width: 100%;
     padding: 20px 20px 20px 20px;
@@ -136,21 +146,25 @@ h5 {
 
 .col-sm-6 a{
     font-family: 'Itim', cursive !important;
-    color: #574144!important;
+    color: #6a494e!important;
     
+}
+
+.col-sm-6 p{
+    color: rgb(58, 56, 56);
 }
 
 h6{
     font-family: 'Itim', cursive;
-    color: #574144;
-    font-size: 55px;
+    color: #6a494e;
+    font-size: 50px;
 }
 
 
 h7{
     font-family: 'Itim', cursive;
     color: black;
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .jumbotron ul{
@@ -160,5 +174,21 @@ h7{
     list-style: none;
     align-items: center;
     justify-content: center;
+    border-radius: 0%;
 }
 
+.col-sm-12{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card{
+    margin: 10px 15px!important;
+}
+
+.card img{
+    border-radius: 50%!important;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}

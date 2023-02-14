@@ -192,3 +192,14 @@ h7{
     align-items: center;
     text-align: center;
 }
+
+.colum{
+    display: flex!important;
+    flex-direction: column!important;
+    flex-wrap:wrap;
+}
+
+/* .enlaces{
+    display: flex;
+    flex-flow: wrap;
+} */

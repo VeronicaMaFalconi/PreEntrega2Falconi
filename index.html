@@ -30,7 +30,7 @@
 
         <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="#">
-                <img src="img/corazon.png" class="img-responsive" alt="logo" />      
+                <img src="img/corazon.png" class="img-responsive" alt="logo" />
             </a>
             <!--Init view phone-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -96,8 +96,9 @@
     <footer class="container-fluid">
         <div class="jumbotron text-center" style="margin-bottom: 0">
             <div class="datos row">
-                <div class="enlaces col-sm-6">
-                    <ul>
+                <div class="enlaces col-sm-4">
+                    <ul class="colum">
+                        <li>Enlaces</li>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="cursos.html">Cursos</a></li>
                         <li><a href="talleres.html">Talleres</a></li>
@@ -105,19 +106,27 @@
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
-                <div class="contacto col-sm-6">
-                    formulario
+                <div class="email col-sm-4">
+                    <p>Formá parte</p>
+                    <p>Ingresá tu email para estar al día con mi mundo...</p>
+                    <form action="enviar.php" method="post" netlify enctype="application/x-www-form-urlencoded"
+                        enctype="text/plain">
+                        <!---->
+                        <!-- <label for="">email</label> -->
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu email">
+                        <input type="submit">
+                </div>
+                <div class="contacto col-sm-4">
+                    <p>
+                        <ul>
+                            <li><a>© Copyright Luciana Gimenez</a></li><br>
+                            <li><a>Todos los derechos reservados.</a></li><br>
+                            <li><a>Hecho con amor</a></li><br>
+                            <li><a>Diseño por Veronica Falconi</a></li><br>
+                        </ul>
+                    </p>
                 </div>
             </div>
-            <p>
-                <ul>
-                    <li><a>© Copyright Luciana Gimenez</a></li><br>
-                    <li><a>Todos los derechos reservados.</a></li><br>
-                    <li><a>Hecho con amor</a></li><br>
-                    <li><a>Diseño por Veronica Falconi</a></li><br>
-                </ul>
-            </p>
-        </div>
     </footer>
 
 

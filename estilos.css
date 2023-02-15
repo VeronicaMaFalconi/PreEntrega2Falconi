@@ -22,12 +22,25 @@ h1 {
     font-size: 30px;
 }
 
-.animate__animated.animate__fadeIn {
+.animate__fadeIn {
     --animate-duration: 6s;
 }
 
-.animate__animated.animate__rollIn{
+.animate__rollIn{
     animation-duration: 5s;
+}
+
+.animate__zoomIn.centre{
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+.animate__zoomIn.left{
+    animation-duration: 2s;
+    
+}
+.animate__zoomIn.right{
+    animation-duration: 2s;
+    animation-delay: 2s;
 }
 
 
@@ -196,10 +209,27 @@ h7{
 .colum{
     display: flex!important;
     flex-direction: column!important;
-    flex-wrap:wrap;
+    flex-wrap:wrap!important;
+    
 }
+
+.enlaces a{
+    text-decoration: none!important;
+}
+.col-sm-4 p{
+    font-size: 15px!important;
+    text-transform: none!important;
+
+}
+
+/* .contacto{
+    display: flex!important;
+    flex-direction: column!important;
+    flex-wrap:wrap!important;
+} */
 
 /* .enlaces{
     display: flex;
     flex-flow: wrap;
 } */
+

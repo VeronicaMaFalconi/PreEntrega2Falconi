@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Candal&family=Itim&family=Quicksand:wght@300&display=swap');
-
-.fakeimg {
-    height: 200px;
-    background: #aaa;
+.{
+    height: 1000px;
 }
+/* .fakeimg {
+    height: 1000px!important;
+    background: red;
+} */
 
 .jumbotron {
     background-image: linear-gradient(rgb(210, 154, 161), #C8AFB3 60%, white);
@@ -217,9 +219,83 @@ h7{
     text-decoration: none!important;
 }
 .col-sm-4 p{
-    font-size: 15px!important;
+    font-size: 17px!important;
     text-transform: none!important;
+}
 
+.enlacefooter{
+    font-size: 17px!important;
+    color: black;
+    margin: 0%!important;
+}
+
+.enlacefooter:hover{
+    font-size: 20px!important;
+    color: #A00034;
+}
+
+.bienvenida{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+}
+.text-group{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #AFAC99;
+    background-clip: border-box;
+    
+    border-radius: .25rem;
+}
+
+.text-group p{
+    color:black;
+    padding: 3px;
+    margin: 2px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form input,select{
+    padding: 3px;
+    margin: 2px;
+
+}
+
+.form{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column; */
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    
+    border-radius: .25rem;
+    height:300px!important;
+    width:auto!important;
+}
+
+.audiob{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
 
 /* .contacto{

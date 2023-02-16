@@ -28,12 +28,13 @@ h1 {
 }
 
 @keyframes animate__fadeIn {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
-    }    
+    }
 }
 
 .animate__rollIn {
@@ -305,49 +306,33 @@ select {
     min-width: 0;
     word-wrap: break-word;
     align-items: center;
-
 }
 
 .caja{
-    position: relative;
+    display: flex;
     flex-flow: wrap;
-    display: -ms-flexbox;
-    display: flex;
     word-wrap: break-word;
-    min-height: 100px;
-    max-height: 400px;
-    width: 100px;
-    min-width: 0;
-    align-items: center;
-    padding: 10px 30px 20px 30px;
-    background-color: #74B785;
-    border-radius: 22px;
-    margin: 15px 0px 15px 0px;
 }
-
 .caja p{
-    display: flex;
-    color: #574144;
+    background-color: #74B785;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px; 
+    font-size: 25px;
+    max-width: 80%;
+    border-radius: 22px;
+    margin: 30px 15px 30px 15px; 
+    padding: 30px;
 }
 
-.caja.right.col-sm-6{
-    display: flex;
-    text-align: end;
-    align-content: flex-start;
-    align-items: flex-start;
-}
-
-.left p{
+.left p {
     text-align: end;
 }
 
-.right p{
+.right p {
     text-align: start;
 }
-.animate__fadeInLeft{
+
+/* .animate__fadeInLeft{
     visibility: visible;
     animation-timing-function: ease-in;
     animation-duration: 2s;
@@ -357,4 +342,4 @@ select {
     visibility: visible;
     animation-timing-function: ease-in;
     animation-duration: 2s;
-}
+} */

@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Candal&family=Itim&family=Quicksand:wght@300&display=swap');
-.{
-    height: 1000px;
+
+.fakeimg {
+    height: 200px !important;
 }
-/* .fakeimg {
-    height: 1000px!important;
-    background: red;
-} */
 
 .jumbotron {
     background-image: linear-gradient(rgb(210, 154, 161), #C8AFB3 60%, white);
@@ -25,22 +22,35 @@ h1 {
 }
 
 .animate__fadeIn {
-    --animate-duration: 6s;
+    --animate-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.animate__rollIn{
+@keyframes animate__fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }    
+}
+
+.animate__rollIn {
     animation-duration: 5s;
 }
 
-.animate__zoomIn.centre{
+.animate__zoomIn.centre {
     animation-duration: 2s;
     animation-delay: 1s;
 }
-.animate__zoomIn.left{
+
+.animate__zoomIn.left {
     animation-duration: 2s;
-    
+
 }
-.animate__zoomIn.right{
+
+.animate__zoomIn.right {
     animation-duration: 2s;
     animation-delay: 2s;
 }
@@ -95,23 +105,23 @@ h1 {
 
 .navbar-dark .navbar-toggler {
     border-color: #A00034;
-    padding-top: 10px!important;
+    padding-top: 10px !important;
 }
 
-.navbar-toggler i{
+.navbar-toggler i {
     color: #A00034;
     border-color: #A00034;
 }
 
-.resaltado{
+.resaltado {
     font-family: 'Candal', sans-serif;
-    color: black!important;
+    color: black !important;
     animation: resaltado;
     animation-iteration-count: 3;
     transition-delay: 1000ms;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    
+
 }
 
 
@@ -144,9 +154,11 @@ h5 {
     text-align: center;
     padding: 20px 5px 5px 5px;
 }
-.imagenbio{
-    padding-top: 25px;
+
+.imagenbio {
+    padding-top: 10px;
 }
+
 .col-sm-6 p img {
     width: 100%;
     padding: 20px 20px 20px 20px;
@@ -154,35 +166,35 @@ h5 {
     box-shadow: 10px 10px 20px 0px #aaa;
 }
 
-.cursiva{
+.cursiva {
     font-family: 'Itim', cursive;
     font-size: 25px;
 }
 
-.col-sm-6 a{
+.col-sm-6 a {
     font-family: 'Itim', cursive !important;
-    color: #6a494e!important;
-    
+    color: #6a494e !important;
+
 }
 
-.col-sm-6 p{
+.col-sm-6 p {
     color: rgb(58, 56, 56);
 }
 
-h6{
+h6 {
     font-family: 'Itim', cursive;
     color: #6a494e;
     font-size: 50px;
 }
 
 
-h7{
+h7 {
     font-family: 'Itim', cursive;
     color: black;
     font-size: 29px;
 }
 
-.jumbotron ul{
+.jumbotron ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -192,54 +204,56 @@ h7{
     border-radius: 0%;
 }
 
-.col-sm-12{
+.col-sm-12 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.card{
-    margin: 10px 15px!important;
+.card {
+    margin: 10px 15px !important;
 }
 
-.card img{
-    border-radius: 50%!important;
+.card img {
+    border-radius: 50% !important;
     align-content: center;
     align-items: center;
     text-align: center;
 }
 
-.colum{
-    display: flex!important;
-    flex-direction: column!important;
-    flex-wrap:wrap!important;
-    
+.colum {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+
 }
 
-.enlaces a{
-    text-decoration: none!important;
-}
-.col-sm-4 p{
-    font-size: 17px!important;
-    text-transform: none!important;
+.enlaces a {
+    text-decoration: none !important;
 }
 
-.enlacefooter{
-    font-size: 17px!important;
+.col-sm-4 p {
+    font-size: 17px !important;
+    text-transform: none !important;
+}
+
+.enlacefooter {
+    font-size: 17px !important;
     color: black;
-    margin: 0%!important;
+    margin: 0% !important;
 }
 
-.enlacefooter:hover{
-    font-size: 20px!important;
+.enlacefooter:hover {
+    font-size: 20px !important;
     color: #A00034;
 }
 
-.bienvenida{
+.bienvenida {
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
 }
-.text-group{
+
+.text-group {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -249,12 +263,11 @@ h7{
     word-wrap: break-word;
     background-color: #AFAC99;
     background-clip: border-box;
-    
     border-radius: .25rem;
 }
 
-.text-group p{
-    color:black;
+.text-group p {
+    color: black;
     padding: 3px;
     margin: 2px;
     font-family: 'Quicksand', sans-serif;
@@ -262,29 +275,14 @@ h7{
     font-size: 20px;
 }
 
-form input,select{
+form input,
+select {
     padding: 3px;
     margin: 2px;
 
 }
 
-.form{
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column; */
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    
-    border-radius: .25rem;
-    height:300px!important;
-    width:auto!important;
-}
-
-.audiob{
+.form {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -294,9 +292,84 @@ form input,select{
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    height: 300px !important;
+    width: auto !important;
 }
+
+.audiob {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    align-items: center;
+
+}
+
+.caja{
+    position: relative;
+    flex-flow: wrap;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.caja p{
+    display: flex;
+    background-color: #74B785;
+    margin: 15px 0px 15px 0px;
+    width: 400px;
+    min-height: 100px;
+    color: #574144;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px; 
+    border-radius: 22px;
+    padding: 10px 30px 20px 30px;
+}
+/* .caja.left.col-sm-6{
+    display: flex;
+    text-align: end;
+    align-content: flex-end;
+    align-items: flex-end;
+} */
+
+.caja.right.col-sm-6{
+    display: flex;
+    text-align: end;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.left p{
+    text-align: end;
+}
+
+.right p{
+    text-align: start;
+}
+.animate__fadeInLeft{
+    visibility: visible;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+
+}
+/* @keyframes animate__fadeInLeft {
+    transform-origin;
+
+    /* transform: translate3d(100%,0,0) skewX(-30deg); */
+.animate__fadeInRight{
+    visibility: visible;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
 
 /* .contacto{
     display: flex!important;
@@ -308,4 +381,3 @@ form input,select{
     display: flex;
     flex-flow: wrap;
 } */
-

@@ -251,6 +251,7 @@ h7 {
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
+    padding-top: 15px;
 }
 
 .text-group {
@@ -308,6 +309,16 @@ select {
     align-items: center;
 }
 
+.titulo.col-sm-12{
+    padding-top: 50px;
+    padding-bottom: 0px!important;
+    border: 0%!important;
+}
+.titulo h2{
+    padding: 0px!important;
+    margin: 0%;
+}
+
 .caja{
     display: flex;
     flex-flow: wrap;
@@ -331,15 +342,3 @@ select {
 .right p {
     text-align: start;
 }
-
-/* .animate__fadeInLeft{
-    visibility: visible;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-
-}
-.animate__fadeInRight{
-    visibility: visible;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-} */

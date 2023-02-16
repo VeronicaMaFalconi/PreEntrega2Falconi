@@ -6,11 +6,20 @@
 
 .jumbotron {
     background-image: linear-gradient(rgb(210, 154, 161), #C8AFB3 60%, white);
-    background-color: rgb(210, 154, 161);
     display: flex;
     flex-direction: column;
     justify-items: center;
     padding: 20px 0px 0px 0px;
+}
+
+.black{
+    background-color: black;
+}
+.blackd{
+    background-image: linear-gradient(white 7%, rgb(210, 154, 161)8%, black 10%, black 20%, black 30%, black 40%, black 50%, black 80%, black 90%, rgb(210, 154, 161) 97%, white 98%);
+}
+.white{
+    background-color: white;
 }
 
 h1 {
@@ -141,7 +150,7 @@ h1 {
 
 h2 {
     padding: 15px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -149,12 +158,20 @@ h2 {
 
 h5 {
     font-family: 'Quicksand', sans-serif;
-    font-style: oblique;
-    font-size: 26px;
+    font-weight: bold;
+    font-size: 3em;
     text-align: center;
     padding: 20px 5px 5px 5px;
 }
 
+.descripcion{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+.text-white{
+    color: white!important;
+}
 .imagenbio {
     padding-top: 10px;
 }
@@ -211,6 +228,7 @@ h7 {
 
 .card {
     margin: 10px 15px !important;
+    border: none!important;
 }
 
 .card img {
@@ -218,6 +236,19 @@ h7 {
     align-content: center;
     align-items: center;
     text-align: center;
+    background-color: black;
+}
+.card-group{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+    margin-left: 100px;
+    background-color: black;
+    margin
+}
+
+.card-tittle{
+
 }
 
 .colum {

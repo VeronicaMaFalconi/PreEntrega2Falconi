@@ -16,12 +16,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/corazon.png" />
     <title>Cursos</title>
 </head>
 
-<body>
-    <header>
+<body class="blackd">
+    <header class="white">
         <div class="jumbotron text-center" style="margin-bottom: 0">
             <h1 class="animate__animated animate__fadeIn">Mi Luz Consciente</h1>
             <p class="animate__animated animate__fadeIn">Equilibrio interior</p>
@@ -62,53 +63,57 @@
         </nav>
     </header>
     <main>
-        <section class="descripcion">
-            <h5>Un curso para cada momento de la vida basada en mi experiencia profesional y personal.</h5>
+        <section class="descripcion black">
+            <h5 class="text-white">Un curso para cada momento de la vida basada en mi experiencia profesional y personal.</h5>
         </section>
         <div class="card-group">
-            <div class="card">
-                <p class="animate__animated animate__zoomIn left"><img src="img/pose.png" class="card-img-top img-fluid" alt="...">
+            <div class="card black">
+                <p data-aos="zoom-in" data-aos-duration="3000"><img src="img/pose.png" class="card-img-top img-fluid" alt="...">
                 </p>
                 <div class="card-body">
-                    <h7 class="card-title">Meditación</h7>
-                    <p class="card-text cursiva">Si el camino es el amor, la forma es la meditación. Curso online guiado
+                    <h7 class="card-title text-white">Meditación</h7>
+                    <p class="card-text cursiva text-white">Si el camino es el amor, la forma es la meditación. Curso online guiado
                         con
                         audios.</p>
-                    <p class="card-text cursiva">Vas a
+                    <p class="card-text cursiva text-white">Vas a
                         aprender a
                         meditar y encontrar el equilibrio interior. </p>
-                    <p class="card-text cursiva">Podes
+                    <p class="card-text cursiva text-white">Podes
                         escucharlo a media hora de la mañana o antes de dormir.</p>
                     <a href="#" class="btn btn-primary">Más info</a>
                 </div>
             </div>
-            <div class="card">
-                <p class="animate__animated animate__zoomIn centre"><img src="img/lapaloma.png" class="card-img-top img-fluid"
-                        alt="curso2"></p>
+        </div>
+        <div class="card-group">
+            <div class="card black">
+                <p data-aos="zoom-in" data-aos-duration="3000"><img src="img/lapaloma.png" class="card-img-top img-fluid"
+                    alt="curso2"></p>
                 <div class="card-body">
-                    <h7 class="card-title">Activá tus chacras</h7>
-                    <p class="card-text cursiva">La clave para salud y la felicidad son tus chakras. Curso online guiado
+                    <h7 class="card-title text-white">Activá tus chacras</h7>
+                    <p class="card-text cursiva text-white">La clave para salud y la felicidad son tus chakras. Curso online guiado
                         con
                         audios.</p>
-                    <p class="card-text cursiva">Vas a aprender a relajar profundamente y lograr paz interior
+                    <p class="card-text cursiva text-white">Vas a aprender a relajar profundamente y lograr paz interior
                         activando tus
                         chakras.</p>
-                    <p class="card-text cursiva">Es
+                    <p class="card-text cursiva text-white">Es
                         ideal para tratar bloqueos internos.</p>
                     <a href="#" class="btn btn-primary">Más info</a>
                 </div>
             </div>
-            <div class="card">
-                <p class="animate__animated animate__zoomIn right"><img src="img/pies.png" class="card-img-top img-fluid"
-                        alt="curso3"></p>
+        </div>
+        <div class="card-group">
+            <div class="card black">
+                <p data-aos="zoom-in" data-aos-duration="3000"><img src="img/pies.png" class="card-img-top img-fluid"
+                    alt="curso3"></p>
                 <div class="card-body">
-                    <h7 class="card-title">Enciende tu libertad</h7>
-                    <p class="card-text cursiva">Limpia tu camino para habitarlo con libertad. Curso online guiado con
+                    <h7 class="card-title text-white">Enciende tu libertad</h7>
+                    <p class="card-text cursiva text-white">Limpia tu camino para habitarlo con libertad. Curso online guiado con
                         audios.</p>
-                    <p class="card-text cursiva">Vas a
+                    <p class="card-text cursiva text-white">Vas a
                         aprender a honrar nuestras versiones pasadas y abrirte a una
                         versión de nosotras, cada vez más libre de creencias externas. </p>
-                    <a href="#" class="btn btn-primary">Más info</a>
+                    <a href="#" class="btn btn-primary text-white">Más info</a>
                 </div>
             </div>
         </div>
@@ -157,6 +162,10 @@
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
